@@ -1,0 +1,6 @@
+/home/nuc/Desktop/ClionProjects/ArmorDetect_MindVision/cmake-build-debug/CMakeFiles/drone.dir
+/home/nuc/Desktop/ClionProjects/ArmorDetect_MindVision/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nuc/Desktop/ClionProjects/ArmorDetect_MindVision/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nuc/Desktop/ClionProjects/ArmorDetect_MindVision/cmake-build-debug/sensors/CMakeFiles/sensors.dir
+/home/nuc/Desktop/ClionProjects/ArmorDetect_MindVision/cmake-build-debug/sensors/CMakeFiles/edit_cache.dir
+/home/nuc/Desktop/ClionProjects/ArmorDetect_MindVision/cmake-build-debug/sensors/CMakeFiles/rebuild_cache.dir
