@@ -46,17 +46,19 @@ void process()
     while(isrun)
     {
         while((receive_index - process_index) < 1 && isrun);
-        m.lock();
+        
+        //m.lock();
         if(camera_error_lock){
             camera_error_lock = false;
         }
-        Mat src = img.clone();
-        m.unlock();
+        //Mat src = img.clone();
+        //m.unlock();
         process_index++;
 
 
         //TODO::在这里调用你的识别代码
-        ad.receive_img(src);
+        //ad.receive_img(src);
+        ad.receive_img(img);
         ad.detect_steps();
 
 
@@ -102,7 +104,9 @@ void receive()
         md.get_img();
 #endif
 
-        while((receive_index - process_index) > 0 && isrun);
+        // while((receive_index - process_index) > 0 && isrun);
+        if((receive_index - process_index) > 0 && isrun)
+            continue;
         m.lock();
         if(camera_error){
             camera_error_lock = true;
